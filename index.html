@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermcode</title>
+    <!-- Importación de iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container d-flex justify-content-between align-items-center py-3">
+        <div class="d-flex align-items-center">
+            <img class="me-1" src="assets/logo.png" alt="logo image" style="width: 45px;">
+            <p class="text-uppercase quantico-font fw-bold fs-2">hermcode</p>
+        </div>
+
+        <div>
+            <a class="text-yellow fw-bold me-2" href="#cursos">CURSOS</a>
+            <a class="text-yellow fw-bold me-2" href="#contacto">CONTÁCTANOS</a>
+            <button class="btn btn-secondary">
+                Iniciar sesión
+            </button>
+        </div>
+    </header>
+
+
+    <section class="main-section">
+        <div class="container d-flex align-items-center justify-content-between h-100">
+            <div class="w-50 me-2">
+                <h1 class="fs-4 text-uppercase lh-1">Empieza a aprender</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur repellat quae optio? Sunt excepturi dolor dicta ipsum doloremque, ex hic ad minus placeat, illum quaerat necessitatibus vero quos iste. Minus.</p>
+            </div>
+    
+            <figure class="w-50">
+                <img src="assets/undraw_coding_joxb.svg" alt="Logo hermcode">
+            </figure>
+        </div>
+    </section>
+
+    <section id="cursos" class="container py-5">
+        <h2 class="mb-3 fs-3">Cursos en línea</h2>
+
+        <!-- CARDS -->
+        <div class="d-grid row-3 gap-4">
+            <div>
+                <img class="mb-3" src="assets/python.jpg" alt="python image">
+                <div class="mb-2">
+                    <h3 class="fs-2">Curso 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum asperiores cupiditate suscipit nemo.</p>
+                </div>
+                <button class="btn btn-primary w-100 fs-1">Iniciar curso</button>
+            </div>
+            <div>
+                <img class="mb-3" src="assets/python.jpg" alt="python image">
+                <div class="mb-2">
+                    <h3 class="fs-2">Curso 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum asperiores cupiditate suscipit nemo.</p>
+                </div>
+                <button class="btn btn-primary w-100 fs-1">Iniciar curso</button>
+            </div>
+            <div>
+                <img class="mb-3" src="assets/python.jpg" alt="python image">
+                <div class="mb-2">
+                    <h3 class="fs-2">Curso 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum asperiores cupiditate suscipit nemo.</p>
+                </div>
+                <button class="btn btn-primary w-100 fs-1">Iniciar curso</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="container d-flex align-items-center justify-content-between py-5">
+        <h3 class="fs-2">Se parte de nuestro equipo</h3>
+        
+        <div class="w-50">
+            <h2>Contacto</h2>
+
+            <form>
+                <div>
+                    <label class="d-block" for="name">Nombre:</label>
+                    <input class="w-100" type="text" name="name" id="name">
+                </div>
+    
+                <div>
+                    <label class="d-block" for="name">Correo electrónico:</label>
+                    <input class="w-100" type="email" name="email" id="email">
+                </div>
+    
+                <button type="submit" class="btn btn-primary w-100 mt-2">Enviar</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container d-flex justify-content-between py-5">
+            <p>&copy 2025 Hermcode. Todos los derechos reservados</p>
+    
+            <div>
+                <a href="https://www.youtube.com/@hermcode" class="d-block mb-1 text-white" target="_blank">
+                    <i class="fa-brands fa-facebook"></i> <!-- Icono de Font Awesome -->
+                    <span>Facebook</span>
+                </a>
+                <a href="https://www.youtube.com/@hermcode" class="d-block mb-1 text-white" target="_blank">
+                    <i class="fa-brands fa-youtube"></i> <!-- Icono de Font Awesome -->
+                    <span>Youtube</span>
+                </a>
+                <a href="https://www.youtube.com/@hermcode" class="d-block mb-1 text-white" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i> <!-- Icono de Font Awesome -->
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
