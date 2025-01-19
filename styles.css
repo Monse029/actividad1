@@ -311,6 +311,7 @@ footer {
 
 .menu-logo__img {
     height: 3rem;
+    max-width: 3.6rem;
 }
 
 .menu-navbar {
